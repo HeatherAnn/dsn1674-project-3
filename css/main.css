@@ -1,0 +1,47 @@
+html{
+  box-sizing: border-box;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+font-family: 'Lato', sans-serif;
+margin: 0;
+background-color: #50151a;
+}
+header{
+  margin: 0 auto;
+}
+div{
+  background-color: #f6a7b5;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  color: #50151a;
+}
+h2{
+  text-align: center;
+  margin-top: 5px;
+  color: #50151a;
+}
+h3{
+  font-weight: 300;
+  color: #b35360;
+  border-color: #50151a;
+  border-top: dotted 2px;
+  border-bottom: dotted 2px;
+  text-align: center;
+  padding: 5px;
+  margin: 40px 90px 0px 90px;
+  position: relative;
+}
+.menu{
+  background-color: #f6a7b5;
+  margin-top: 40px;
+}
