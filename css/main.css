@@ -11,6 +11,7 @@ body{
 font-family: 'Lato', sans-serif;
 margin: 0;
 background-color: #50151a;
+width: 100%;
 }
 header{
   margin: 0 auto;
@@ -41,7 +42,57 @@ h3{
   margin: 40px 90px 0px 90px;
   position: relative;
 }
+h4{
+  margin: 0;
+  text-align: center;
+}
+p{
+  margin:0;
+  font-weight: 300;
+  font-size: 0.75em;
+}
+.featurephoto{
+  width: 100%;
+  margin-top: 30px;
+}
 .menu{
   background-color: #f6a7b5;
-  margin-top: 40px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.menu1{
+  width: 50%;
+ clear: both;
+}
+figure{
+  width: 100%;
+  margin: 0;
+}
+figcaption{
+  clear: left;
+}
+.blackcherry{
+  width: 100%;
+}
+.cake{
+  width: 100%;
+}
+.mocha{
+  width: 100%;
+}
+.vanilla{
+  width: 100%;
+}
+.moon{
+  width: 20%;
+  padding: 0;
+}
+.about{
+  background-color: #f6a7b5;
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 0;
+}
+.flavours{
+  width: 100%;
 }
