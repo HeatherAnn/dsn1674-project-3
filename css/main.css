@@ -10,33 +10,28 @@ html{
 body{
 font-family: 'Lato', sans-serif;
 margin: 0;
-background-color: #50151a;
 width: 100%;
 }
 header{
   margin: 0 auto;
-}
-div{
   background-color: #f6a7b5;
-  padding: 20px;
 }
+
 h1{
   text-align: center;
   margin-bottom: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #50151a;
 }
 h2{
   text-align: center;
-  margin-top: 5px;
-  color: #50151a;
+  margin-top: 0.5px;
+  color: #f6a7b5;
+  font-size: 2rem;
 }
 h3{
   font-weight: 300;
-  color: #b35360;
-  border-color: #50151a;
-  border-top: dotted 2px;
-  border-bottom: dotted 2px;
+  color: #f6a7b5;
   text-align: center;
   padding: 5px;
   margin: 40px 90px 0px 90px;
@@ -47,17 +42,17 @@ h4{
   text-align: center;
 }
 p{
+  color: #50151a;
   margin:0;
   font-weight: 300;
-  font-size: 0.75em;
+  font-size: 1em;
+  margin: 10px;
 }
 .featurephoto{
   width: 100%;
-  margin-top: 30px;
 }
 .menu{
-  background-color: #f6a7b5;
-  margin-top: 30px;
+  background-color: #99d5ce;
   overflow: hidden;
 }
 .menu1{
@@ -71,6 +66,9 @@ figure{
 figcaption{
   clear: left;
 }
+
+/*These are menu photos*/
+
 .coffee{
   width: 100%;
 }
@@ -88,11 +86,42 @@ figcaption{
   padding: 0;
 }
 .about{
-  background-color: #f6a7b5;
-  margin-top: 30px;
   overflow: hidden;
-  padding: 0;
+  margin: 0;
 }
 .flavours{
   width: 100%;
+  margin: 0;
+}
+
+.news{
+  background-color: #b35360;
+}
+
+.tea{
+  width: 100%;
+  margin: 0;
+}
+.cups{
+  width: 100%;
+}
+.gelato{
+  width: 100%;
+}
+
+.contact{
+  background-color: white;
+}
+.contactinfo{
+  text-align: center;
+}
+
+footer{
+  background-color: #f6a7b5;
+}
+img{
+  width: 10%;
+}
+.footertext{
+  color: white;
 }
