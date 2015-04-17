@@ -61,10 +61,12 @@ nav a{
   color: #004056;
   text-decoration: none;
   border: 1.5px solid;
+  border-radius: 5px;
   border-color: white;
   background-color: #99d5ce;
   padding: 0.50em;
-  margin: 0;
+  margin: 3px;
+  margin-bottom: 3px;
   text-align: center;
 
 }
@@ -72,10 +74,12 @@ a:hover{
   background-color: #f6a7b5;
 }
 .toplogo{
-  width: 30%;
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
+  width: 110px;
+  text-align: center;
+  margin: 0 auto;
 }
 .headertext{
   margin-top: 0px;
@@ -143,21 +147,35 @@ figcaption{
 .menutext{
   margin: 10px;
 }
+
+
 .coffee{
   width: 100%;
+}
+.coffeediv{
+  width: 50%;
+  float: left;
 }
 .panini{
   width: 100%;
 }
+.paninidiv{
+  width: 50%;
+  float: right;
+}
 .strawberry{
   width: 100%;
+}
+.strawberrydiv{
+  width: 50%;
+  float: left;
 }
 .vanilla{
   width: 100%;
 }
-.moon{
-  width: 20%;
-  padding: 0;
+.vanilladiv{
+  width: 50%;
+  float: right;
 }
 .about{
   overflow: hidden;
