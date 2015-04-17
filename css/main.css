@@ -23,6 +23,7 @@ header{
   width: 30%;
 }
 .headertext{
+  margin-top: 0px;
   color: #b35360;
 }
 .title{
@@ -40,7 +41,7 @@ h1{
 }
 h2{
   text-align: center;
-  padding: 10px;
+  padding: 0px;
   color: #f6a7b5;
   font-size: 2rem;
   margin-bottom: 0;
@@ -50,7 +51,7 @@ h3{
   color: #f6a7b5;
   text-align: center;
   padding: 5px;
-  margin: 10px 90px 0px 90px;
+  margin: -3px 90px 5px 90px;
 }
 h4{
   margin: 0;
@@ -65,14 +66,14 @@ p{
 }
 .featurephoto{
   width: 100%;
+  margin-bottom: -3px;
 }
 .menu{
   background-color: #99d5ce;
   overflow: hidden;
 }
-.menu1{
-  width: 50%;
- clear: both;
+.bluetext{
+  color: #004056;
 }
 figure{
   width: 100%;
@@ -120,12 +121,15 @@ figcaption{
 .tea{
   width: 100%;
   margin: 0;
+  margin-bottom: -3px;
 }
 .cups{
   width: 100%;
+  margin-bottom: -3px;
 }
 .gelato{
   width: 100%;
+  margin-bottom: -3px;
 }
 
 .contact{
@@ -143,18 +147,24 @@ figcaption{
   margin: 1px;
 }
 .postalcode{
-  margin-bottom: 20px;
+  padding: 0px 0px 30px 0px;
+  margin: 0;
 }
 .contacttitle{
+  color: #004056;
   margin: 0;
 }
 .socialmedia{
   width: 70%;
   padding: 0;
-  margin: 0;
+  margin-top: -30px;
 }
 .contactinfo{
   text-align: center;
+}
+.map{
+  width: 100%;
+  margin-bottom: -4px;
 }
 
 .footer{
