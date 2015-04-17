@@ -53,6 +53,8 @@ nav li {
   display: block;
   padding: 0;
   width: 30%;
+  width: 50%;
+  float: left;
 }
 nav a{
   display: block;
@@ -104,7 +106,7 @@ h3{
   color: #f6a7b5;
   text-align: center;
   padding: 5px;
-  margin: -3px 90px 5px 90px;
+  margin: -3px 90px 20px 90px;
 }
 h4{
   margin: 0;
