@@ -55,6 +55,7 @@ nav li {
   width: 30%;
   width: 50%;
   float: left;
+  padding: 3px;
 }
 nav a{
   display: block;
@@ -101,13 +102,13 @@ h1{
 h2{
   text-align: center;
   padding: 0px;
-  color: #f6a7b5;
+  color: #b35360;
   font-size: 2rem;
   margin-bottom: 0;
 }
 h3{
   font-weight: 300;
-  color: #f6a7b5;
+  color: #b35360;
   text-align: center;
   padding: 5px;
   margin: -3px 90px 20px 90px;
@@ -145,9 +146,8 @@ figcaption{
 /*These are menu photos*/
 
 .menutext{
-  margin: 10px;
+  margin: 14px;
 }
-
 
 .coffee{
   width: 100%;
@@ -155,6 +155,7 @@ figcaption{
 .coffeediv{
   width: 50%;
   float: left;
+  background-color: white;
 }
 .panini{
   width: 100%;
@@ -162,6 +163,7 @@ figcaption{
 .paninidiv{
   width: 50%;
   float: right;
+  background-color: white;
 }
 .strawberry{
   width: 100%;
@@ -169,6 +171,7 @@ figcaption{
 .strawberrydiv{
   width: 50%;
   float: left;
+  background-color: white;
 }
 .vanilla{
   width: 100%;
@@ -176,10 +179,15 @@ figcaption{
 .vanilladiv{
   width: 50%;
   float: right;
+  background-color: white;
 }
 .about{
   overflow: hidden;
-  margin: 0;
+  margin-top: 0px;
+}
+.abouth2{
+  margin-bottom: 23px;
+  color: #b35360;
 }
 .flavours{
   width: 100%;
@@ -187,28 +195,25 @@ figcaption{
 }
 
 .news{
-  background-color: #b35360;
-  margin-top: 40px;
+  background-color: #f6a7b5;
+  margin-top: 0;
+}
+.newsh2{
+  margin-top: 15px;
 }
 
-.tea{
-  width: 100%;
-  margin: 0;
-  margin-bottom: -3px;
+.calendar{
+  position: fixed;
+  width: 100px;
+  float: left;
+  padding-bottom: 10px;
 }
-.cups{
-  width: 100%;
-  margin-bottom: -3px;
-}
-.gelato{
-  width: 100%;
-  margin-bottom: -3px;
-}
-
 .contact{
   background-color: white;
   text-align: center;
 }
+
+
 .contactinfo{
   margin: 20px;
 }
@@ -226,6 +231,7 @@ figcaption{
 .contacttitle{
   color: #004056;
   margin: 0;
+  padding: 10px;
 }
 .socialmedia{
   width: 70%;
