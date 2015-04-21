@@ -147,6 +147,7 @@ figcaption{
 
 .menutext{
   margin: 14px;
+  color: #004056;
 }
 
 .coffee{
@@ -184,10 +185,11 @@ figcaption{
 .about{
   overflow: hidden;
   margin-top: 0px;
+  background-color: #99d5ce;
 }
 .abouth2{
   margin-bottom: 23px;
-  color: #b35360;
+  color: #004056;
 }
 .flavours{
   width: 100%;
@@ -203,16 +205,16 @@ figcaption{
 }
 
 .calendar{
-  position: fixed;
-  width: 100px;
+  width: 110px;
+  margin: 10px;
+  padding: 10px;
   float: left;
-  padding-bottom: 10px;
 }
 .contact{
+  overflow: hidden;
   background-color: white;
   text-align: center;
 }
-
 
 .contactinfo{
   margin: 20px;
