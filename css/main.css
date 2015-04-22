@@ -203,18 +203,32 @@ figcaption{
 .newsh2{
   margin-top: 15px;
 }
+.musicnote{
+  background-image: url("../images/calendaricons.svg");
+  background-position: -1px;
+  padding: 1px 49px 1px 54px;
+  background-size: 92px auto;
+  background-repeat: no-repeat;
+}
+.trophy{
+  background-image: url("../images/calendaricons2.svg");
+  background-position: -1px;
+  padding: 1px 49px 1px 54px;
+  background-size: 92px auto;
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+}
 
 .calendar1{
   width: 110px;
   padding: 10px;
-  float: left;
   margin-bottom: 10px;
 }
 .calendar{
   width: 110px;
   padding: 10px;
-  float: left;
 }
+
 .contact{
   overflow: hidden;
   background-color: white;
