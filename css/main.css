@@ -173,6 +173,7 @@ figcaption{
 .strawberrydiv{
   width: 50%;
   float: left;
+  clear: both;
   background-color: white;
 }
 .vanilla{
