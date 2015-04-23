@@ -255,11 +255,7 @@ figcaption{
   margin: 0;
   padding: 10px;
 }
-.socialmedia{
-  width: 70%;
-  padding: 0;
-  margin-top: -30px;
-}
+
 .contactinfo{
   text-align: center;
 }
@@ -284,5 +280,9 @@ figcaption{
 }
 .arrow{
   width: 30%;
-  margin: -14px -20px 14px -20px;
+}
+
+.icons{
+width: 13%;
+margin: -5px 0px -9px 0px
 }
